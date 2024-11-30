@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+background-image: url("https://i.imgur.com/gfZgtm9.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  color: #00ffff;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px grey;
+  font-size: 10vmin;
+  top: 45%;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  opacity: 0;
+}
+
+svg {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+#snow {
+  position: absolute;
+  height: 100vh;
+}
+
+circle {
+  fill: #fff;
+  stroke-width: 2px;
+}
+
+#man, #reverseMan {
+  height: 30vh;
+  position: absolute;
+  bottom: 1vh;
+  opacity: 0;
+}
+
+.cls-1{fill:#2a1100;}.cls-2{fill:#ffce74;}.cls-3{fill:#a7a9ac;}.cls-4{fill:#939598;}.cls-5,.cls-6{fill:#da1c5c;}.cls-6{stroke:#231f20;stroke-miterlimit:10;stroke-width:0.25px;}.cls-7{fill:#fff;}.cls-8{fill:#f15a29;}
